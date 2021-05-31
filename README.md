@@ -1,23 +1,23 @@
 # RayCasting
 
-IME project to create an sphere image using Ray Cast and Phong reflexion model.
+Projeto do IME para criar imagem de esferas utilizando Ray Cast e modelo de reflexição de Phong
 
-Students: 
+## Alunos: 
 Leonardo Gomes
 Felipe Reyel
 
-3 Images were produced with a fixed camera position and white light, changing the light position and object's ambient, diffuse and specular components.
+3 Imagens foram produzidar com a posição da camera fixa e uma luz branca. Mudança apenas da posição do foco de luz e das componentes ambiente, difusa e especular dos objetos.
 
-## Ball_1: Lambertian Green image
+## Ball_1: Imagem Verde Lambertiana
 Light:
 position: (5, 5, 5);
 
-object: (Green lambertian)
+object:
 ambient: (0, 0.1, 0)
 diffuse: (0, 0.7, 0)
 specular: (0, 0, 0)
 
-## Ball_2: Specular Red
+## Ball_2: Vermelha, Especular
 Light:
 position: (-3, 0, 5);
 
@@ -26,11 +26,11 @@ ambient: (0.1, 0, 0)
 diffuse: (0.7, 0, 0)
 specular: (0.8, 0.8, 0.8)
 
-## Ball_3: Magenta, Gray background
+## Ball_3: Magenta, Fundo cinza
 Light:
 position: (5, 5, 5);
 
-object: (Magenta ks=1 gray background)
+object: (Magenta ks=1)
 ambient: (0.1, 0, 0.1)
 diffuse: (0.7, 0, 0.7)
 specular: (1, 1, 1)
